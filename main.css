@@ -75,7 +75,7 @@ html{
     font-size: 100px;
 }
 .row-3 img, .row-3 iframe{
-    border: solid 5px white;
+    border: solid 7px white;
     border-radius: 10px;
 }
 .row-3 ul{
@@ -84,12 +84,17 @@ html{
 .row-3 ul a{
     list-style-type: none;
     text-decoration: none;
-    background-color: rgb(30 215 96);
+    background-color:rgb(30 215 96);
     color: black;
     font-size: 40px;
     padding: 5px;
     border-radius: 10px;
-    border: solid 5px white;
+    border: solid 10px rgb(30 215 96);
+}
+.row-3 ul a:hover{
+    transition: ease-in 0.3s;
+    border-color: white;
+    opacity: 1;
 }
 .row-4{
     text-align: center;
