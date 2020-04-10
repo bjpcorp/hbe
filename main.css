@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pattaya', sans-serif;
+}
+html{
+    scroll-behavior:smooth;
+}
+.navbar ul{
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    list-style-type: none;
+    background-color: black;
+}
+.navbar-section a{
+   text-decoration: none;
+   color: white;
+   padding: 10px;
+   font-size: 30px;
+   font-family: 'Pattaya', sans-serif;
+}
+ .navbar-section a:hover{
+    transition: ease 0.7s;
+    color: black;
+    background-color: white;
+}
+.banner{
+    line-height: 0;
+}
+.row-1{
+    text-align: center;
+    background-color: black;
+}
+.row-1 h1{
+    color: white;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 100px;
+    padding: 50px 0;
+}
+.fb-feed{
+    padding-bottom: 50px;
+}
+.row-1 iframe{
+    border-radius: 20px;
+}
+.row-2{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.row-2 h1{
+    padding: 50px 0;
+    font-size: 100px;
+}
+.row-2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.row-3{
+    text-align: center;
+    background-color: black; 
+}
+.row-3 h1{
+    padding: 50px 0;
+    color: white;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 100px;
+}
+.row-3 img, .row-3 iframe{
+    border: solid 5px white;
+    border-radius: 10px;
+}
+.row-3 ul{
+    padding: 50px;
+}
+.row-3 ul a{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: rgb(30 215 96);
+    color: black;
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 5px white;
+}
+.row-4{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.row-4 h1{
+    padding: 50px 0;
+    font-size: 100px;
+}
+.row-4 iframe{
+    border: solid 5px black;
+    border-radius: 50px;
+}
+.row-5{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 100px;
+}
+.row-5 h1{
+    padding: 50px 0;
+    font-size: 100px;
+}
+.row-5 h5{
+    font-size: 40px;
+}
+.row-5 sup{
+    font-size: 20px;
+}
+.row-6{
+    text-align: center;
+    padding-bottom:100px;
+}
+.row-6 h1{
+    padding: 50px 0;
+    font-size: 100px;
+}
+.row-6 p{
+    font-size: 30px;
+}
+footer{
+    bottom: 0;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.email{
+    text-decoration: none;
+    color: white;
+}
+.socials{
+    padding-top: 10px;
+}
+.facebook, .instagram{
+    background-color: white;
+    border-radius: 35px;
+    border: 2px black solid;
+}
