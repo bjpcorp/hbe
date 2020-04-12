@@ -10,6 +10,10 @@
 html{
     scroll-behavior:smooth;
 }
+.navbar{
+    position: fixed;
+    width: 100%;
+}
 .navbar ul{
     height: 50px;
     text-align: center;
@@ -53,7 +57,7 @@ html{
     background-color: white;
     color: black;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 .row-2 h1{
     padding: 50px 0;
@@ -64,6 +68,7 @@ html{
     text-decoration: none;
     color: black;
     font-size: 30px;
+    padding-bottom: 50px;
 }
 .row-3{
     text-align: center;
@@ -136,16 +141,22 @@ html{
     font-size: 100px;
 }
 .row-6 p{
+    padding: 0 300px;
     font-family: 'Bangers', cursive;
     font-size: 30px;
 }
 footer{
+    text-align: center;
     bottom: 0;
     background-color: black;
     color: white;
     font-size: 20px;
     text-decoration: none;
     padding: 5px 10px;
+}
+footer h1{
+    padding: 50px 0;
+    font-size: 100px;
 }
 .email{
     text-decoration: none;
