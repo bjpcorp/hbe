@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -23,7 +24,6 @@ html{
    color: white;
    padding: 10px;
    font-size: 30px;
-   font-family: 'Pattaya', sans-serif;
 }
  .navbar-section a:hover{
     transition: ease 0.7s;
@@ -39,7 +39,6 @@ html{
 }
 .row-1 h1{
     color: white;
-    font-family: 'Pattaya', sans-serif;
     font-size: 100px;
     padding: 50px 0;
 }
@@ -60,6 +59,7 @@ html{
     font-size: 100px;
 }
 .row-2 a{
+    font-family: 'Bangers', cursive;
     text-decoration: none;
     color: black;
     font-size: 30px;
@@ -119,9 +119,11 @@ html{
     font-size: 100px;
 }
 .row-5 h5{
+    font-family: 'Bangers', cursive;
     font-size: 40px;
 }
 .row-5 sup{
+    font-family: 'Bangers', cursive;
     font-size: 20px;
 }
 .row-6{
@@ -133,6 +135,7 @@ html{
     font-size: 100px;
 }
 .row-6 p{
+    font-family: 'Bangers', cursive;
     font-size: 30px;
 }
 footer{
@@ -145,7 +148,7 @@ footer{
 }
 .email{
     text-decoration: none;
-    color: white;
+    color: rgb(241, 237, 237);
 }
 .socials{
     padding-top: 10px;
