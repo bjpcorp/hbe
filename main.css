@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Pattaya', sans-serif;
+    max-width: 100%;
 }
 html{
     scroll-behavior:smooth;
