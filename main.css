@@ -15,7 +15,7 @@ html{
     width: 100%;
 }
 .navbar ul{
-    height: 50px;
+    height: 62.5px;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -41,6 +41,7 @@ html{
 .row-1{
     text-align: center;
     background-color: black;
+    padding-bottom: 50px;
 }
 .row-1 h1{
     color: white;
@@ -51,7 +52,23 @@ html{
     padding-bottom: 50px;
 }
 .row-1 iframe{
+    border: solid 10px rgb(66 103 178);
     border-radius: 20px;
+}
+.row-1 ul a{
+    list-style-type: none;
+    text-decoration: none;
+    background-color:rgb(66 103 178);
+    color: white;
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 10px rgb(66 103 178);
+}
+.row-1 ul a:hover{
+    transition: ease-in 0.3s;
+    border-color: white;
+    opacity: 1;
 }
 .row-2{
     background-color: white;
@@ -81,7 +98,7 @@ html{
     font-size: 100px;
 }
 .row-3 img, .row-3 iframe{
-    border: solid 7px white;
+    border: solid 10px rgb(30 215 96);
     border-radius: 10px;
 }
 .row-3 ul{
@@ -111,7 +128,7 @@ html{
     font-size: 100px;
 }
 .row-4 iframe{
-    border: solid 5px black;
+    border: solid 10px rgb(255 0 0);
     border-radius: 50px;
 }
 .row-5{
