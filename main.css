@@ -192,7 +192,7 @@ footer h1{
     .navbar ul, .navbar a{
         background-color: transparent;
         color: transparent;
-        width: 10px;
+        width: 0px;
     }
     .row-1, .row-1 h1{
         font-size: 50px;
