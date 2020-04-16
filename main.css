@@ -184,9 +184,15 @@ footer h1{
     padding-top: 10px;
 }
 .facebook, .instagram{
+    height: 50px;
+    width: auto;
     background-color: white;
-    border-radius: 35px;
+    border-radius: 16px;
     border: 2px black solid;
+}
+.twitter {
+    height: 50px;
+    width: auto;
 }
 @media all and (max-width: 700px){
     .navbar ul, .navbar a{
